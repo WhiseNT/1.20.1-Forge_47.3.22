@@ -1,0 +1,12 @@
+# 忽略所有 .json 文件
+*.json
+
+# 忽略所有 .ts 文件
+*.ts
+
+# 忽略指定名称的文件夹
+/local/
+/logs/
+/replay_recordings/
+/saves/
+/screenshots/
