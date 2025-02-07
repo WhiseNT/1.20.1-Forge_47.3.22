@@ -1,0 +1,30 @@
+[15:50:56] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[15:50:56] [INIT] Loaded plugins:
+[15:50:56] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:50:56] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:50:56] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[15:50:56] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
+[15:50:56] [INIT] - com.probejs.ProbeJSPlugin
+[15:50:56] [INFO] Loaded script server_scripts:global.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:wolfUtils/summonFunction.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:ChatChannel/DistanceTell.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:ChatChannel/WolfChatChannel.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[15:50:56] [INFO] gameController/coalTag.js#7: Loaded Java class 'net.minecraft.world.level.block.BlastFurnaceBlock'
+[15:50:56] [INFO] gameController/coalTag.js#8: Loaded Java class 'net.minecraft.world.level.block.state.properties.BlockStateProperties'
+[15:50:56] [INFO] gameController/coalTag.js#9: Loaded Java class 'java.lang.Boolean'
+[15:50:56] [INFO] gameController/coalTag.js#54: Loaded Java class 'net.minecraft.nbt.ListTag'
+[15:50:56] [INFO] Loaded script server_scripts:gameController/coalTag.js in 0.001 s
+[15:50:56] [INFO] Loaded script server_scripts:gameController/menu.js in 0.001 s
+[15:50:56] [INFO] gameController/serverCore.js#1: Loaded Java class 'net.minecraft.world.entity.player.Player'
+[15:50:56] [INFO] Loaded script server_scripts:gameController/serverCore.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:gameController/win.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:IdentityCore.js in 0.001 s
+[15:50:56] [INFO] Loaded script server_scripts:loottable.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:NTLogin/log.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:tags.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:wolfUtils/foodEaten.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:wolfUtils/soul_racing.js in 0.0 s
+[15:50:56] [INFO] Loaded script server_scripts:wolfUtils/wolfStore.js in 0.0 s
+[15:50:56] [INFO] Loaded 17/17 KubeJS server scripts in 0.005 s with 0 errors and 0 warnings

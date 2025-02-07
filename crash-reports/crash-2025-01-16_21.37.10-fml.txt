@@ -1,0 +1,168 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2025-01-16 21:37:10
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.22-universal.jar%23213!/:?] {re:classloading}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:135) ~[forge-1.20.1-47.3.22-universal.jar%23213!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$4(Minecraft.java:571) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.m_137521_(Util.java:421) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:classloading,re:mixin}
+	at net.minecraft.client.Minecraft.lambda$new$5(Minecraft.java:564) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ForgeLoadingOverlay.m_88315_(ForgeLoadingOverlay.java:146) ~[forge-1.20.1-47.3.22-universal.jar%23213!/:?] {re:classloading}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:954) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.compat.shaders.replaymod.json:MixinShaderEntityRenderer,pl:mixin:APP:mixins.core.replaymod.json:MixinGameRenderer,pl:mixin:APP:mixins.jgui.json:MixinGameRenderer,pl:mixin:APP:mixins.render.replaymod.json:Mixin_Omnidirectional_Camera,pl:mixin:APP:mixins.render.replaymod.json:Mixin_Omnidirectional_Rotation,pl:mixin:APP:mixins.render.replaymod.json:Mixin_PreserveDepthDuringGuiRendering,pl:mixin:APP:mixins.render.replaymod.json:Mixin_PreserveDepthDuringHandRendering,pl:mixin:APP:mixins.render.replaymod.json:Mixin_Stereoscopic_Camera,pl:mixin:APP:mixins.render.replaymod.json:Mixin_Stereoscopic_HandRenderPass,pl:mixin:APP:mixins.render.replaymod.json:GameRendererAccessor,pl:mixin:APP:mixins.render.replaymod.json:MixinEntityRenderer,pl:mixin:APP:mixins.replay.replaymod.json:MixinCamera,pl:mixin:APP:mixins.replay.replaymod.json:Mixin_ShowSpectatedHand_NoOF,pl:mixin:APP:cold_sweat.mixin.json:MixinAfterLevelRender,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[1.20.1-Forge_47.3.22.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.22.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.22.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.22.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:71) ~[?:?] {}
+	at oolloo.jlw.Wrapper.main(Wrapper.java:51) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at com.google.gson.JsonElement.getAsJsonArray(JsonElement.java:117) ~[gson-2.10.jar%2386!/:?] {}
+-- MOD stackone --
+Details:
+	Mod File: /D:/极地大冒险/.minecraft/versions/1.20.1-Forge_47.3.22/mods/[禁止堆叠] stackone-1.20.1-1.0.7.jar
+	Failure message: Stack One Mod (stackone) encountered an error during the common_setup event phase
+		java.lang.IllegalStateException: Not a JSON Array: null
+	Mod Version: 1.20.1-1.0.7
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.IllegalStateException: Not a JSON Array: null
+Stacktrace:
+	at com.google.gson.JsonElement.getAsJsonArray(JsonElement.java:117) ~[gson-2.10.jar%2386!/:?] {}
+	at com.laosun.stackone.IgnoreItem.getIgnoreItems(IgnoreItem.java:37) ~[%5B禁止堆叠%5D%20stackone-1.20.1-1.0.7.jar%23190!/:1.20.1-1.0.7] {re:classloading}
+	at com.laosun.stackone.ItemStackSizeModifier.modifyItemStackSizes(ItemStackSizeModifier.java:40) ~[%5B禁止堆叠%5D%20stackone-1.20.1-1.0.7.jar%23190!/:1.20.1-1.0.7] {re:classloading}
+	at com.laosun.stackone.StackOneMod.commonSetup(StackOneMod.java:29) ~[%5B禁止堆叠%5D%20stackone-1.20.1-1.0.7.jar%23190!/:1.20.1-1.0.7] {re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23137!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23137!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23137!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23137!/:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121) ~[javafmllanguage-1.20.1-47.3.22.jar%23210!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.22.jar%23209!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.2, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 331448976 bytes (316 MiB) / 694157312 bytes (662 MiB) up to 3328180224 bytes (3174 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x46a6
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6078
+	Graphics card #1 name: NVIDIA GeForce RTX 3060 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2560
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.5599
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 26308.74
+	Virtual memory used (MB): 13803.92
+	Swap memory total (MB): 10240.00
+	Swap memory used (MB): 663.48
+	JVM Flags: 6 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn476m -Xmx3174m
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.22.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.22.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.22.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.22.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.22.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |SIDED_SETU|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		[抓钩] grappling_hook_mod-1.20.1-1.20.1-v13.jar     |Grappling Hook Mod            |grapplemod                    |1.20.1-v13          |SIDED_SETU|Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.9-SNAPSHOT.jar                |KumaAPI                       |kuma_api                      |20.1.9-SNAPSHOT     |SIDED_SETU|Manifest: NOSIGNATURE
+		Rough_Tweaks_Revamped-1.20.x-1.1.2.jar            |Rough Tweaks Revamped         |roughtweaks                   |1.20.x-1.1.2        |SIDED_SETU|Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.12.28_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.12.28             |SIDED_SETU|Manifest: NOSIGNATURE
+		curios-forge-5.11.1+1.20.1.jar                    |Curios API                    |curios                        |5.11.1+1.20.1       |SIDED_SETU|Manifest: NOSIGNATURE
+		[武器投掷] weaponthrow-1.20.1-6.0-beta.1.jar          |Weapon Throw                  |weaponthrow                   |1.20.1-6.0-beta.1   |SIDED_SETU|Manifest: NOSIGNATURE
+		[Xaero的小地图] Xaeros_Minimap_FP24.2.0_Forge_1.20.jar|Xaero's Minimap               |xaerominimapfair              |24.2.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		reforgedplaymod-1.20.1-0.3.1.jar                  |ReForgedPlay Mod              |reforgedplaymod               |0.3.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		[隐藏名称] hiddennames-1.20.1-1.0.5.jar               |Hidden Names                  |hiddennames                   |1.20.1-1.0.5        |SIDED_SETU|Manifest: NOSIGNATURE
+		[背包] backpacked-forge-1.20.1-2.2.5.jar            |Backpacked                    |backpacked                    |2.2.5               |SIDED_SETU|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		[硬核复活] hardcorerevival-forge-1.20.1-12.0.6.jar    |Hardcore Revival              |hardcorerevival               |12.0.6              |SIDED_SETU|Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.6.jar                       |MixinExtras                   |mixinextras                   |0.3.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		CustomNPCs-1.20.1-GBPort-Unofficial-20240709.jar  |Custom NPCs                   |customnpcs                    |1.20.1.20240709     |SIDED_SETU|Manifest: NOSIGNATURE
+		[ewewukek的火枪模组] musketmod-1.20.1-forge-1.5.4.jar  |Musket Mod                    |musketmod                     |1.5.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		[烹饪锅] CrockPot-1.20.1-1.0.5-release.jar           |CrockPot                      |crockpot                      |1.0.5               |SIDED_SETU|Manifest: NOSIGNATURE
+		[铁氧体磁芯] ferritecore-6.0.1-forge.jar               |Ferrite Core                  |ferritecore                   |6.0.1               |SIDED_SETU|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		balm-forge-1.20.1-7.3.11-all.jar                  |Balm                          |balm                          |7.3.11              |SIDED_SETU|Manifest: NOSIGNATURE
+		[物品物理掉落] ItemPhysic_FORGE_v1.8.4_mc1.20.1.jar     |ItemPhysic                    |itemphysic                    |1.8.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		[冷汗] ColdSweat-2.3.10.jar                         |Cold Sweat                    |cold_sweat                    |2.3.10              |SIDED_SETU|Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.7.12.jar                 |Framework                     |framework                     |0.7.12              |SIDED_SETU|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		ThrowableExplosives-1.20.1-1.0.0.jar              |Throwable Explosives          |throwableexplosives           |1.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |SIDED_SETU|Manifest: NOSIGNATURE
+		[简单的语音聊天] voicechat-forge-1.20.1-2.5.27.jar       |Simple Voice Chat             |voicechat                     |1.20.1-2.5.27       |SIDED_SETU|Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.22-universal.jar                |Forge                         |forge                         |47.3.22             |SIDED_SETU|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		commonality-1.20.1-7.0.0.jar                      |Commonality                   |commonality                   |7.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		apexcore-1.20.1-10.0.0.jar                        |ApexCore                      |apexcore                      |10.0.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		infusedfoods-1.20.1-10.0.0.jar                    |InfusedFoods                  |infusedfoods                  |10.0.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		tinyinv-1.20.1-1.1.0.1.jar                        |TinyInv                       |tinyinv                       |1.20.1-1.1.0.1      |SIDED_SETU|Manifest: NOSIGNATURE
+		[禁止堆叠] stackone-1.20.1-1.0.7.jar                  |Stack One Mod                 |stackone                      |1.20.1-1.0.7        |ERROR     |Manifest: NOSIGNATURE
+		[遗体] corpse-forge-1.20.1-1.0.19.jar               |Corpse                        |corpse                        |1.20.1-1.0.19       |SIDED_SETU|Manifest: NOSIGNATURE
+		[耗时合成] crafttakestime-1.20.1-1.0.6.jar            |CraftTakesTime                |crafttakestime                |1.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: 2bf890b2-d653-4fb6-ab9b-351cd1525868
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.22

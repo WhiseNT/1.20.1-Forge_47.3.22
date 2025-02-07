@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "fc56d7be-d9a5-4209-856f-8ae27e45b2bc",
+    "displayName": {
+      "insertion": "WhiseNT",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell WhiseNT "
+      },
+      "hoverEvent": {
+        "action": "show_entity",
+        "contents": {
+          "type": "minecraft:player",
+          "id": "fc56d7be-d9a5-4209-856f-8ae27e45b2bc",
+          "name": {
+            "text": "WhiseNT"
+          }
+        }
+      },
+      "extra": [
+        {
+          "text": "WhiseNT"
+        }
+      ],
+      "text": ""
+    },
+    "animation": "null"
+  }
+]
