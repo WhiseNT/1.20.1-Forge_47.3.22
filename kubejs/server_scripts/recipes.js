@@ -2,7 +2,8 @@
 
 //总map  用于记录游戏内制造的东西 前一表示id  后一表示是否有被下毒
 let ItemMap = {
-    'crockpot:monster_lasagna':[[0,1]]
+    'crockpot:monster_lasagna':[[0,1]],
+
 }
 //构建Shapeless配方对象, 输出为key,value包含输入和stage 用以直接向配方和tag事件注入
 //如果不需要职业就能合成 请写 "no"
@@ -22,9 +23,9 @@ let ShapedRecipes = {
     'minecraft:beetroot':
         [[
             [
-                'DDD',
+                'DW ',
                 '   ',
-                'W W'
+                '   '
             ], {
                 D: 'minecraft:diamond',
                 W: 'minecraft:white_wool'
@@ -32,7 +33,8 @@ let ShapedRecipes = {
         ],
         "doctor",
         "food"
-        ]
+        ],
+    
 
 }
 /**
@@ -63,7 +65,7 @@ ServerEvents.recipes(event=>{
     });
     Object.entries(ShapedRecipes).forEach(([output, data])  => {
         event.shaped(output,data[0][0],data[0][1]).modifyResult(
-            /**@param {Internal.Item} outputItem*/
+            /**@param {Internal.ItemStack_} outputItem*/
             (inputItems,outputItem)=>{
                 let flag = 0
                 let items = inputItems.findAll()
@@ -72,14 +74,16 @@ ServerEvents.recipes(event=>{
                         flag = ItemMap[items[i].id][items[i].nbt.id][1]
                     }
                 }
-                inputItems.forEach(item=>{
-                    if(item.hasNbt()){
-                        flag = ItemMap[item][item.nbt.get("id")]
-                    }
-                })
             let stringID = outputItem.id
-            let nbt = {id:ItemMap[stringID].length}
-            ItemMap[stringID].push([ItemMap[stringID].length,flag])
+            let nbt = {}
+            if (ItemMap[stringID] == undefined) {
+                nbt = {id:0}
+                ItemMap[stringID] = []
+                ItemMap[stringID].push([0,flag])
+            } else {
+                nbt = {id:ItemMap[stringID].length}
+                ItemMap[stringID].push([ItemMap[stringID].length,flag])
+            }
             return Item.of(outputItem).withNBT(nbt)
         }).stage(data[1])
         
