@@ -58,8 +58,15 @@ ServerEvents.recipes(event=>{
                 
                 
             let stringID = outputItem.id
-            let nbt = {id:ItemMap[stringID].length}
-            ItemMap[stringID].push([ItemMap[stringID].length,flag])
+            let nbt = {}
+            if (ItemMap[stringID] == undefined) {
+                nbt = {id:0}
+                ItemMap[stringID] = []
+                ItemMap[stringID].push([0,flag])
+            } else {
+                nbt = {id:ItemMap[stringID].length}
+                ItemMap[stringID].push([ItemMap[stringID].length,flag])
+            }
             return Item.of(outputItem).withNBT(nbt)
         }).stage(data[1])
     });
