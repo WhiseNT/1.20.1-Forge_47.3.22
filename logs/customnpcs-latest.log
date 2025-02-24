@@ -1,7 +1,159 @@
-[15:17:17][FINE/customnpcs][noppes.npcs.controllers.ScriptController:55] Wed Feb 05 15:17:17 CST 2025
-[15:17:17][FINE/customnpcs][noppes.npcs.CustomNpcs:193] Script Engines Available:
-[15:17:17][FINE/customnpcs][noppes.npcs.CustomNpcs:193] ECMAScript: .js
-[15:17:27][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
-[15:17:27][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
-[15:17:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
-[15:17:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[20:56:27][FINE/customnpcs][noppes.npcs.controllers.ScriptController:55] Mon Feb 24 20:56:27 CST 2025
+[20:56:27][FINE/customnpcs][noppes.npcs.CustomNpcs:193] Script Engines Available:
+[20:56:27][FINE/customnpcs][noppes.npcs.CustomNpcs:193] ECMAScript: .js
+[20:56:45][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[20:56:45][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[20:56:47][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[20:56:47][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:01:04][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:01:04][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:01:05][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:01:05][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:03:07][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:03:07][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:03:08][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:03:08][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:04:16][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:04:16][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:04:17][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:04:17][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:04:38][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:04:38][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:04:39][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:04:39][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:05:03][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:05:03][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:05:04][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:05:04][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:05:39][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:05:39][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:05:40][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:05:40][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:06:03][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:06:03][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:06:04][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:06:04][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:06:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:06:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:06:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:06:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:07:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:07:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:07:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:07:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:08:01][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:08:01][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:08:02][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:08:02][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:08:15][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:08:15][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:08:16][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:08:16][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:08:36][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:08:36][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:08:37][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:08:37][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:09:18][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:09:18][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:09:19][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:09:19][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:10:38][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:10:38][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:10:39][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:10:39][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:11:19][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:11:19][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:11:21][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:11:21][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:11:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:11:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:11:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:11:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:12:20][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:12:20][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:12:21][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:12:21][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:12:33][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:12:33][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:12:34][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:12:34][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:13:01][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:13:01][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:13:02][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:13:02][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:14:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:14:44][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:14:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:14:45][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:15:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:15:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:15:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:15:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:15:43][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:15:43][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:15:44][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:15:44][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:16:58][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:16:58][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:16:59][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:16:59][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:17:16][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:17:16][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:17:17][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:17:17][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:17:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:17:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:17:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:17:30][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:17:43][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:17:43][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:17:44][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:17:44][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:18:05][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:18:05][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:18:06][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:18:06][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:19:28][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:19:28][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:19:29][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:19:29][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:20:13][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:20:13][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:20:14][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:20:14][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:20:25][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:20:25][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:20:26][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:20:26][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:21:08][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:21:08][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:21:09][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:21:09][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:22:05][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:22:05][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:22:06][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:22:06][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:22:25][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:22:25][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:22:26][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:22:26][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:22:37][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:22:37][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:22:38][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:22:38][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:23:11][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:23:11][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:23:12][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:23:12][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:23:26][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:23:26][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:23:27][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:23:27][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:23:49][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:23:49][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:23:50][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:23:50][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs
+[21:25:26][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[21:25:26][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[21:25:27][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Loading Dialogs
+[21:25:27][FINE/customnpcs][noppes.npcs.CustomNpcs:242] Done loading Dialogs

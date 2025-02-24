@@ -74,6 +74,7 @@ ServerEvents.recipes(event=>{
                         flag = ItemMap[items[i].id][items[i].nbt.id][1]
                     }
                 }
+
             let stringID = outputItem.id
             let nbt = {}
             if (ItemMap[stringID] == undefined) {
